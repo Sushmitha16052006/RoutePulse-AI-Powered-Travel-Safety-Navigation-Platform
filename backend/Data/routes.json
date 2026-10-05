@@ -1,0 +1,97 @@
+{
+  "metro": [
+    {
+      "lineId": "RED",
+      "lineName": "Red Line",
+      "color": "#EF4444",
+      "direction": "Miyapur ↔ LB Nagar",
+      "stations": [
+        "Miyapur", "JNTU College", "KPHB Colony", "Kukatpally", "Balanagar",
+        "Moosapet", "Bharat Nagar", "Erragadda", "ESI Hospital", "SR Nagar",
+        "Ameerpet", "Punjagutta", "Irrum Manzil", "Khairatabad", "Lakdikapul",
+        "Assembly", "Nampally", "Gandhi Bhavan", "Osmania Medical", "MJ Market",
+        "Musarambagh", "Dilsukhnagar", "Chaitanyapuri", "Victoria Memorial", "LB Nagar"
+      ],
+      "platforms": {
+        "Miyapur":         { "towards_start": null, "towards_end": 1 },
+        "Ameerpet":        { "towards_start": 2, "towards_end": 1 },
+        "LB Nagar":        { "towards_start": 2, "towards_end": null }
+      },
+      "exitSide": "left",
+      "frequency": "5 min",
+      "type": "metro"
+    },
+    {
+      "lineId": "BLUE",
+      "lineName": "Blue Line",
+      "color": "#3B82F6",
+      "direction": "Nagole ↔ Raidurg",
+      "stations": [
+        "Nagole", "Uppal", "Stadium", "NGRI", "Habsiguda", "Tarnaka",
+        "Mettuguda", "Secunderabad East", "Parade Grounds", "Secunderabad West",
+        "Gandhi Hospital", "Musheerabad", "RTC X Roads", "Chikkadpally", "Narayanguda",
+        "Sultan Bazaar", "MG Bus Station", "Malakpet", "New Market",
+        "Ameerpet", "Madhura Nagar", "Yusufguda", "Road No 5 Jubilee Hills",
+        "Jubilee Hills Check Post", "Peddamma Temple", "Madhapur", "Durgam Cheruvu",
+        "Hi-Tech City", "Raidurg"
+      ],
+      "platforms": {
+        "Nagole":   { "towards_start": null, "towards_end": 1 },
+        "Ameerpet": { "towards_start": 2, "towards_end": 1 },
+        "Raidurg":  { "towards_start": 2, "towards_end": null }
+      },
+      "exitSide": "right",
+      "frequency": "6 min",
+      "type": "metro"
+    },
+    {
+      "lineId": "GREEN",
+      "lineName": "Green Line",
+      "color": "#22C55E",
+      "direction": "JBS ↔ MGBS",
+      "stations": [
+        "Jubilee Bus Station", "Parade Grounds", "Secunderabad West",
+        "Gandhi Hospital", "Musheerabad", "RTC X Roads",
+        "Chikkadpally", "Narayanguda", "Sultan Bazaar", "MG Bus Station"
+      ],
+      "platforms": {
+        "Jubilee Bus Station": { "towards_start": null, "towards_end": 1 },
+        "MG Bus Station":      { "towards_start": 2, "towards_end": null }
+      },
+      "exitSide": "left",
+      "frequency": "8 min",
+      "type": "metro"
+    }
+  ],
+  "bus": [
+    {
+      "lineId": "5K",
+      "lineName": "Route 5K",
+      "color": "#F59E0B",
+      "direction": "Secunderabad ↔ Kukatpally",
+      "stations": [
+        "Secunderabad Bus Stand", "Paradise Circle", "Begumpet",
+        "Ameerpet", "Punjagutta", "Yusufguda", "Madhapur",
+        "Hi-Tech City", "Kondapur", "Kukatpally"
+      ],
+      "exitSide": "left",
+      "frequency": "12 min",
+      "type": "bus",
+      "platforms": {}
+    },
+    {
+      "lineId": "49K",
+      "lineName": "Route 49K",
+      "color": "#8B5CF6",
+      "direction": "LB Nagar ↔ MGBS",
+      "stations": [
+        "LB Nagar", "Dilsukhnagar", "Koti", "Abids",
+        "Nampally", "MG Bus Station"
+      ],
+      "exitSide": "right",
+      "frequency": "10 min",
+      "type": "bus",
+      "platforms": {}
+    }
+  ]
+}
